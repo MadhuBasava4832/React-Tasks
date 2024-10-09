@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forb{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first1{
+   
+    width: 100%;
+    height: 100svh;
+    /* aspect-ratio: 16/7.5; */
+    background-image: url(../assets/images/netflix.jpg),linear-gradient(rgb(10, 10, 10),rgb(3,3,3,0.7),rgb(99, 99, 99),rgb(3,3,3,0.7),rgb(3,3,3));    
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header{
+    width: 80%;
+    height: 12%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 150px;
+    /* height: 50px; */
+}
+.logo>img{
+    width: 100%;
+}
+.right{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.right1{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.right1>select{
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.right2{
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.subdiv1{
+     width: 100%;
+    height: 12%;
+}
+.subdiv2{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m1m1{
+    width: 70%;
+    height: 60%;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.block2{
+    width: 100%;
+    height: 80svh;
+    background-color: black;
+    border-bottom: 8px solid grey;
+    display: flex;
+}
+.leftdiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ques{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.main{
+    width: 98svw;
+    height: fit-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sub1,.sub2{
+    width: 90%;
+    margin: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid black; */
+}
+.quest{
+    background-color: rgb(29, 29, 29);
+}
